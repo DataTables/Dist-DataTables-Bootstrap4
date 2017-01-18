@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-bs4",
-    "version": "1.4.2",
+    "version": "2.1.1",
     "description": "DataTables for jQuery with styling for [Bootstrap 4](http://getbootstrap.com/)",
     "files": [
         "js/dataTables.bootstrap4.js",
