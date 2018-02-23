@@ -6,7 +6,8 @@
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "main": "js/dataTables.bootstrap4.js",
+    "main": "./js/dataTables.bootstrap4.js",
+    "style": "./css/dataTables.bootstrap4.css",
     "keywords": [
         "filter",
         "sort",
@@ -25,6 +26,6 @@
     "dependencies": {
         "jquery": ">=1.7",
         "datatables.net": "1.10.16"
-    },
-    "style": "css/dataTables.bootstrap4.css"
+    }
 }
+
