@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>datatables.net-bs4</id>
+        <version>1.10.21</version>
+        <description>Bootstrap4 integration for DataTables</description>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags> DataTables jQuery table Bootstrap4</tags>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Bootstrap4.git"/>
+        <dependencies>
+            <dependency id="jquery" version="1.7.0"/>
+            <dependency id="datatables.net" version="1.10.15"/>
+            <dependency id="bootstrap4" version="4.*"/>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="js/datatables.bootstrap4.js"/>
+        <file src="js/datatables.bootstrap4.min.js"/>
+        <file src="css/datatables.bootstrap4.css"/>
+        <file src="css/datatables.bootstrap4.min.css"/>
+    </files>
+</package>
