@@ -1,26 +1,32 @@
-
 {
-	"name": "datatables.net/datatables.net-bs4",
-	"version": "1.10.21",
-	"description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table. This is the Bootstrap4 integration extension for DataTables.", 
-	"homepage": "http://www.datatables.net/",
-	"authors": [{
-		"name": "SpryMedia",
-		"homepage": "https://datatables.net"
-	}], 
-	"license": [
-		"MIT"
-	],
+    "version": "1.10.24",
+    "name": "datatables.net/datatables.net-bs4",
+    "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table. This is DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
+    "support": {
+        "forum": "https://datatables.net/forums",
+        "source": "https://github.com/DataTables/Dist-DataTables-Bootstrap4"
+    },
+    "homepage": "http://www.datatables.net/",
+    "authors": [
+        {
+            "name": "SpryMedia",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
     "prefer-stable": true,
     "minimum-stability": "dev",
-	"support": {
-		"forum": "https://datatables.net/forums",
-		"source": "https://github.com/DataTables/Dist-DataTables-Bootstrap4"
-    },
-    "keywords": ["DataTables", "jQuery", "table", "Bootstrap4"],
+    "keywords": [
+        "Bootstrap",
+ "Bootstrap4",
+        "Datatables",
+        "jQuery",
+        "table"
+    ],
     "require": {
-        "components/jquery":">=3.5.1",
-        "datatables.net/datatables.net":">=1.10.15",
+        "datatables.net/datatables.net": ">=1.10.24",
         "twbs/bootstrap": "4.*"
     }
 }
