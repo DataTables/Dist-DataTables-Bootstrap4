@@ -10,7 +10,7 @@
         <license type="expression">MIT</license>
         <tags>Bootstrap  Bootstrap4  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net" version=">=1.10.25"/>
+            <dependency id="datatables.net" version="1.10.25"/>
             <dependency id="bootstrap" version="4.*"/>
         </dependencies>
         <contentFiles>
