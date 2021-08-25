@@ -8,11 +8,12 @@
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "types/**/*.d.ts",
         "images/*"
     ],
     "keywords": [
         "Bootstrap",
-        "Bootstrap4",
+ "Bootstrap4",
         "Datatables",
         "jQuery",
         "table",
