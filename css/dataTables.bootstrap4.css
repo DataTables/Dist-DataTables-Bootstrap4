@@ -117,6 +117,22 @@ table.dataTable.nowrap th,
 table.dataTable.nowrap td {
   white-space: nowrap;
 }
+table.dataTable.table-striped > tbody > tr:nth-of-type(2n+1) {
+  background-color: transparent;
+}
+table.dataTable > tbody > tr {
+  background-color: transparent;
+}
+table.dataTable > tbody > tr.selected > * {
+  box-shadow: inset 0 0 0 9999px rgba(2, 117, 216, 0.9);
+  color: white;
+}
+table.dataTable.table-striped > tbody > tr.odd > * {
+  box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.05);
+}
+table.dataTable.table-striped > tbody > tr.odd.selected > * {
+  box-shadow: inset 0 0 0 9999px rgba(2, 117, 216, 0.95);
+}
 
 div.dataTables_wrapper div.dataTables_length label {
   font-weight: normal;
