@@ -11,6 +11,6 @@
         "types/dataTables.bootstrap4.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/DataTablesSrc",
-    "last-tag": "1.11.5",
+    "last-tag": "1.12.0",
     "last-sync": "e1ec0e3b1364a14ead34aaaadeae6b13df9790f8"
 }
