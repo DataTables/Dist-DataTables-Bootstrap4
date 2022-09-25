@@ -1,5 +1,5 @@
 {
-    "version": "1.11.5",
+    "version": "1.12.1",
     "name": "datatables.net/datatables.net-bs4",
     "description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table. This is DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
     "support": {
@@ -26,7 +26,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net": ">=1.11.5",
+        "datatables.net/datatables.net": ">=1.12.1",
         "twbs/bootstrap": "4.*"
     }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <version>1.11.5</version>
+        <version>1.12.1</version>
         <id>datatables.net-bs4</id>
         <description>This is DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)</description>
         <repository type="git" url="https://github.com/DataTables/Dist-DataTables-Bootstrap4.git"/>
@@ -10,7 +10,7 @@
         <license type="expression">MIT</license>
         <tags>Bootstrap  Bootstrap4  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net" version="1.11.5"/>
+            <dependency id="datatables.net" version="1.12.1"/>
             <dependency id="bootstrap" version="4.*"/>
         </dependencies>
         <contentFiles>
