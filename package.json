@@ -2,12 +2,14 @@
     "name": "datatables.net-bs4",
     "description": "DataTables for jQuery with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
     "main": "js/dataTables.bootstrap4.js",
+    "module": "js/dataTables.bootstrap4.mjs",
     "style": "css/dataTables.bootstrap4.css",
     "types": "./types/dataTables.bootstrap4.d.ts",
     "version": "1.12.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts",
         "images/*"
     ],
