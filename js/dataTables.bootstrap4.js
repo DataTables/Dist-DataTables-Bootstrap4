@@ -28,7 +28,6 @@
 				require('datatables.net')(root, $);
 			}
 
-
 			return factory( $, root, root.document );
 		};
 	}
