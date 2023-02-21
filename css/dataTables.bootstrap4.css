@@ -92,9 +92,9 @@ table.dataTable thead > tr > td:active {
   outline: none;
 }
 
-div.dataTables_scrollBody table.dataTable thead > tr > th:before, div.dataTables_scrollBody table.dataTable thead > tr > th:after,
-div.dataTables_scrollBody table.dataTable thead > tr > td:before,
-div.dataTables_scrollBody table.dataTable thead > tr > td:after {
+div.dataTables_scrollBody > table.dataTable > thead > tr > th:before, div.dataTables_scrollBody > table.dataTable > thead > tr > th:after,
+div.dataTables_scrollBody > table.dataTable > thead > tr > td:before,
+div.dataTables_scrollBody > table.dataTable > thead > tr > td:after {
   display: none;
 }
 
