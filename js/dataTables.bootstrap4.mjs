@@ -6,7 +6,6 @@ import $ from 'jquery';
 import DataTable from 'datatables.net';
 
 
-
 /**
  * DataTables integration for Bootstrap 4. This requires Bootstrap 4 and
  * DataTables 1.10 or newer.
