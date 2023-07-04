@@ -5,7 +5,7 @@
     "module": "js/dataTables.bootstrap4.mjs",
     "style": "css/dataTables.bootstrap4.css",
     "types": "./types/dataTables.bootstrap4.d.ts",
-    "version": "1.13.4",
+    "version": "1.13.5",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -15,7 +15,7 @@
     ],
     "keywords": [
         "Bootstrap",
- "Bootstrap4",
+        "Bootstrap4",
         "Datatables",
         "jQuery",
         "table",
