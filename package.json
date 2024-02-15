@@ -10,8 +10,7 @@
         "css/**/*.css",
         "js/**/*.js",
         "js/**/*.mjs",
-        "types/**/*.d.ts",
-        "images/*"
+        "types/**/*.d.ts"
     ],
     "keywords": [
         "Bootstrap",
