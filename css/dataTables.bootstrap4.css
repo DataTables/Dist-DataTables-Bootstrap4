@@ -457,15 +457,19 @@ div.dt-scroll-foot > .dt-scroll-footInner > table {
     justify-content: center !important;
   }
 }
-table.dataTable.table-sm > thead > tr > th:not(.sorting_disabled) {
+table.dataTable.table-sm > thead > tr th.dt-orderable-asc, table.dataTable.table-sm > thead > tr th.dt-orderable-desc, table.dataTable.table-sm > thead > tr th.dt-ordering-asc, table.dataTable.table-sm > thead > tr th.dt-ordering-desc,
+table.dataTable.table-sm > thead > tr td.dt-orderable-asc,
+table.dataTable.table-sm > thead > tr td.dt-orderable-desc,
+table.dataTable.table-sm > thead > tr td.dt-ordering-asc,
+table.dataTable.table-sm > thead > tr td.dt-ordering-desc {
   padding-right: 20px;
 }
-table.dataTable.table-sm.dt-orderable-asc:before, table.dataTable.table-sm.dt-orderable-desc:before {
-  top: 5px;
-  right: 0.85em;
-}
-table.dataTable.table-sm.dt-orderable-asc:after, table.dataTable.table-sm.dt-orderable-desc:after {
-  top: 5px;
+table.dataTable.table-sm > thead > tr th.dt-orderable-asc span.dt-column-order, table.dataTable.table-sm > thead > tr th.dt-orderable-desc span.dt-column-order, table.dataTable.table-sm > thead > tr th.dt-ordering-asc span.dt-column-order, table.dataTable.table-sm > thead > tr th.dt-ordering-desc span.dt-column-order,
+table.dataTable.table-sm > thead > tr td.dt-orderable-asc span.dt-column-order,
+table.dataTable.table-sm > thead > tr td.dt-orderable-desc span.dt-column-order,
+table.dataTable.table-sm > thead > tr td.dt-ordering-asc span.dt-column-order,
+table.dataTable.table-sm > thead > tr td.dt-ordering-desc span.dt-column-order {
+  right: 5px;
 }
 
 div.dt-scroll-head table.table-bordered {
