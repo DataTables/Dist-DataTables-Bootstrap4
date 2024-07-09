@@ -34,6 +34,14 @@ $.extend( true, DataTable.ext.classes, {
 	},
 	processing: {
 		container: "dt-processing card"
+	},
+	layout: {
+		row: 'row justify-content-between',
+		cell: 'd-md-flex justify-content-between align-items-center',
+		tableCell: 'col-12',
+		start: 'dt-layout-start col-md-auto mr-auto',
+		end: 'dt-layout-end col-md-auto ml-auto',
+		full: 'dt-layout-full col-md'
 	}
 } );
 
@@ -66,40 +74,6 @@ DataTable.ext.renderer.pagingButton.bootstrap = function (settings, buttonType, 
 
 DataTable.ext.renderer.pagingContainer.bootstrap = function (settings, buttonEls) {
 	return $('<ul/>').addClass('pagination').append(buttonEls);
-};
-
-DataTable.ext.renderer.layout.bootstrap = function ( settings, container, items ) {
-	var row = $( '<div/>', {
-			"class": items.full ?
-				'row justify-content-md-center' :
-				'row justify-content-between'
-		} )
-		.appendTo( container );
-
-	$.each( items, function (key, val) {
-		var klass;
-
-		// Apply left / right margins
-		if (val.table) {
-			klass = 'col-12';
-		}
-		else if (key === 'start') {
-			klass = 'col-md-auto mr-auto';
-		}
-		else if (key === 'end') {
-			klass = 'col-md-auto ml-auto';
-		}
-		else {
-			klass = 'col-md';
-		}
-
-		$( '<div/>', {
-				id: val.id || null,
-				"class": klass+' '+(val.className || '')
-			} )
-			.append( val.contents )
-			.appendTo( row );
-	} );
 };
 
 
