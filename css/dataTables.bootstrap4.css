@@ -31,6 +31,9 @@ table.dataTable tr.dt-hasChild td.dt-control:before {
   border-bottom: 0px solid transparent;
   border-right: 5px solid transparent;
 }
+table.dataTable tfoot:empty {
+  display: none;
+}
 
 html.dark table.dataTable td.dt-control:before,
 :root[data-bs-theme=dark] table.dataTable td.dt-control:before,
