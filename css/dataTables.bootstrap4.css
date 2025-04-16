@@ -439,6 +439,9 @@ div.dt-container div.dt-layout-table > div {
     margin-left: 0;
   }
 }
+div.dt-container {
+  position: relative;
+}
 div.dt-container > div.row {
   margin-bottom: 0.5rem;
 }
