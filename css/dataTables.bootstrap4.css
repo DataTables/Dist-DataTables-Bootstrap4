@@ -152,7 +152,7 @@ table.dataTable tfoot > tr > td div.dt-column-header,
 table.dataTable tfoot > tr > td div.dt-column-footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: var(--dt-header-align-items);
   gap: 4px;
 }
 table.dataTable thead > tr > th div.dt-column-header span.dt-column-title,
@@ -265,12 +265,6 @@ table.dataTable.nowrap th, table.dataTable.nowrap td {
 table.dataTable th,
 table.dataTable td {
   box-sizing: border-box;
-}
-table.dataTable th div.dt-column-header,
-table.dataTable th div.dt-column-footer,
-table.dataTable td div.dt-column-header,
-table.dataTable td div.dt-column-footer {
-  align-items: var(--dt-header-align-items);
 }
 table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date,
 table.dataTable td.dt-type-numeric,
