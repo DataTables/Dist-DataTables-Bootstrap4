@@ -266,6 +266,12 @@ table.dataTable th,
 table.dataTable td {
   box-sizing: border-box;
 }
+table.dataTable th div.dt-column-header,
+table.dataTable th div.dt-column-footer,
+table.dataTable td div.dt-column-header,
+table.dataTable td div.dt-column-footer {
+  align-items: var(--dt-header-align-items);
+}
 table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date,
 table.dataTable td.dt-type-numeric,
 table.dataTable td.dt-type-date {
@@ -279,7 +285,6 @@ table.dataTable td.dt-type-numeric div.dt-column-footer,
 table.dataTable td.dt-type-date div.dt-column-header,
 table.dataTable td.dt-type-date div.dt-column-footer {
   flex-direction: row-reverse;
-  align-items: var(--dt-header-align-items);
 }
 table.dataTable th.dt-left,
 table.dataTable td.dt-left {
