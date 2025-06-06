@@ -12,11 +12,11 @@
   --dt-html-background: rgb(33, 37, 41);
 }
 
-table.dataTable td.dt-control {
+table.dataTable tbody td.dt-control {
   text-align: center;
   cursor: pointer;
 }
-table.dataTable td.dt-control:before {
+table.dataTable tbody td.dt-control:before {
   display: inline-block;
   box-sizing: border-box;
   content: "";
@@ -25,7 +25,7 @@ table.dataTable td.dt-control:before {
   border-bottom: 5px solid transparent;
   border-right: 0px solid transparent;
 }
-table.dataTable tr.dt-hasChild td.dt-control:before {
+table.dataTable tbody tr.dt-hasChild td.dt-control:before {
   border-top: 10px solid rgba(0, 0, 0, 0.5);
   border-left: 5px solid transparent;
   border-bottom: 0px solid transparent;
