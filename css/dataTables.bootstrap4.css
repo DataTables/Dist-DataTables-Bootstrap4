@@ -10,7 +10,7 @@
   --dt-html-background: white;
 }
 :root.dark {
-  --dt-html-background: rgb(33, 37, 41);
+  --dt-html-background: RGB(33, 37, 41);
 }
 
 table.dataTable tbody td.dt-control {
@@ -216,8 +216,8 @@ div.dt-processing > div:last-child > div {
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  background: rgb(2, 117, 216);
-  background: rgb(var(--dt-row-selected));
+  background: RGB(2, 117, 216);
+  background: RGB(var(--dt-row-selected));
   animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 div.dt-processing > div:last-child > div:nth-child(1) {
@@ -426,14 +426,14 @@ table.dataTable.table > tbody > tr {
   background-color: transparent;
 }
 table.dataTable.table > tbody > tr.selected > * {
-  box-shadow: inset 0 0 0 9999px rgb(2, 117, 216);
-  box-shadow: inset 0 0 0 9999px rgb(var(--dt-row-selected));
-  color: rgb(255, 255, 255);
-  color: rgb(var(--dt-row-selected-text));
+  box-shadow: inset 0 0 0 9999px RGB(2, 117, 216);
+  box-shadow: inset 0 0 0 9999px RGB(var(--dt-row-selected));
+  color: RGB(255, 255, 255);
+  color: RGB(var(--dt-row-selected-text));
 }
 table.dataTable.table > tbody > tr.selected a {
-  color: rgb(9, 10, 11);
-  color: rgb(var(--dt-row-selected-link));
+  color: RGB(9, 10, 11);
+  color: RGB(var(--dt-row-selected-link));
 }
 table.dataTable.table.table-striped > tbody > tr:nth-of-type(2n+1) > * {
   box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-stripe), 0.05);
