@@ -1,7 +1,7 @@
 :root {
   --dt-row-selected: 2, 117, 216;
   --dt-row-selected-text: 255, 255, 255;
-  --dt-row-selected-link: 9, 10, 11;
+  --dt-row-selected-link: 228, 228, 228;
   --dt-row-stripe: 0, 0, 0;
   --dt-row-hover: 0, 0, 0;
   --dt-column-ordering: 0, 0, 0;
@@ -432,7 +432,7 @@ table.dataTable.table > tbody > tr.selected > * {
   color: rgb(var(--dt-row-selected-text));
 }
 table.dataTable.table > tbody > tr.selected a {
-  color: rgb(9, 10, 11);
+  color: rgb(228, 228, 228);
   color: rgb(var(--dt-row-selected-link));
 }
 table.dataTable.table.table-striped > tbody > tr:nth-of-type(2n+1) > * {
