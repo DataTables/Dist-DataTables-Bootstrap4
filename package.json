@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-bs4",
     "description": "DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
-    "main": "js/dataTables.bootstrap4.js",
-    "module": "js/dataTables.bootstrap4.mjs",
-    "style": "css/dataTables.bootstrap4.css",
+    "main": "./js/dataTables.bootstrap4.js",
+    "module": "./js/dataTables.bootstrap4.mjs",
+    "style": "./css/dataTables.bootstrap4.css",
     "types": "./types/dataTables.bootstrap4.d.ts",
     "version": "3.0.4",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Bootstrap",
@@ -33,5 +32,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/DataTablesSrc.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/dataTables.bootstrap4.d.ts",
+            "import": "./js/dataTables.bootstrap4.mjs",
+            "default": "./js/dataTables.bootstrap4.mjs",
+            "require": "./js/dataTables.bootstrap4.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/dataTables.bootstrap4.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
